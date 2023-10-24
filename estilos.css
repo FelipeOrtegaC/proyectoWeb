@@ -1,0 +1,50 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,700);
+
+#bd {
+    font-family: 'Open Sans';
+    background-color: #000000;
+}
+
+#encabezado {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+#navegacion {
+    background-color: #000000;
+    padding: 5px;
+}
+ul {
+    font-family: 'Bodoni MT Condensed';
+    list-style-type: none;
+}
+li a {
+    color: #E5CA79;
+    font-size: 30px;
+    column-width: 10px;
+}
+li {
+    display: inline;
+    padding-left: 2px;
+    column-width: 20px;
+}
+a {
+    text-decoration: none;
+    margin-left: 20px
+}
+li a:hover {
+    background-color: #F3FFBD;
+    color: black;
+    padding: 1%;
+}
+#pie {
+    background-color: #F2EBBF;
+    text-align: center;
+    padding-bottom: 5%;
+    font-size: 20px;
+}
+#principal {
+    border: double;
+    border-color: burlywood;
+    height: 500px;
+} 

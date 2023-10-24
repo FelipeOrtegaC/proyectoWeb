@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterPage.master.cs" Inherits="proyectoWeb.masterPage" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <title>Belladonna</title>
+ <link href="estilos.css" rel="stylesheet" />
+ <asp:ContentPlaceHolder id="head" runat="server">
+ </asp:ContentPlaceHolder>
+</head>
+<body id="bd">
+ <form id="form1" runat="server">
+<header id="encabezado">
+    <ul style="list-style-type: none; padding: 0; display: flex; align-items: center; margin-right=10px">
+        <li  style="width: 60px; height: 60px;">           
+                <img src="res/logo.jpg" alt="Descripción de la imagen" style="height: 120px; width: 180px" />
+        </li>
+        <li style="margin-top:60px; margin-left: 80px; font-family: 'Edwardian Script ITC'; font-size: 60px; color: #E5CA79; ">BellaDonna</li>
+    </ul>
+</header>
+ <nav id="navegacion">
+ <ul>
+ <li><a href="Inicio.aspx">Inicio</a></li>
+ <li><a href="Clientes.aspx">Clientes</a></li>
+ <li><a href="Proveedores.aspx">Proveedores</a></li>
+ <li><a href="Inventario.aspx">Inventario</a></li>
+ <li><a href="Movimientos.aspx">Movimientos</a></li>
+ <li><a href="Compras.aspx">Compras</a></li>
+ <li><a href="Ventas.aspx">Ventas</a></li>
+ <li><a href="Informes.aspx">Informes</a></li>
+ <li><a href="Graficos.aspx">Graficos</a></li>
+ </ul>
+ </nav>
+ <div id="principal">
+ <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+
+ </asp:ContentPlaceHolder>
+ </div>
+ <footer id="pie">
+ Contactanos al siguiente correo: fortegac@udistrital.edu.co
+ </footer>
+ </form>
+</body>
+</html>
+
